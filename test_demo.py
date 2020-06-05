@@ -13,3 +13,7 @@ def test_add():
 
 def test_add_string():
     assert demo_object.add("Hello ","World") == "Hello World"
+
+
+def test_product():
+    assert demo_object.product(2,5) == 10
